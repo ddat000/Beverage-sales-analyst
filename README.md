@@ -154,18 +154,18 @@ df.info()
 
 ## 8) Outcome
 
-1. **B2B Customer Dominance:**
+### 1. **B2B Customer Dominance:**
    - B2B customers contribute 76.6% of total sales and 77.7% of quantities
    - They spend significantly more per transaction ($280 average) compared to B2C customers ($45)
    - B2B customers purchase larger quantities (average 50 units vs. 8 units for B2C)
    - The analysis recommends focusing retention efforts on top B2B customers as they represent the most valuable market segment
 
-2. **Premium Alcoholic Beverage Profitability:**
+### 2. **Premium Alcoholic Beverage Profitability:**
    - Luxury brands (Veuve Clicquot, Moët & Chandon, Johnnie Walker) generate the highest revenue despite lower quantities sold
    - Alcoholic beverages dominate sales (~$900M) while having similar unit sales to other categories (~50M units each) 
    - The analysis supports expanding this product category and implementing targeted marketing strategies to capitalize on these high-margin products
 
-3. **Seasonal Sales Patterns and Forecasting:**
+### 3. **Seasonal Sales Patterns and Forecasting:**
    - Consistent March sales dips of 15-20% were identified across all three years analyzed
    - All beverage categories display identical seasonal patterns in both sales and quantities
    - Sales typically recover quickly in April-May following the March dip
