@@ -1,4 +1,4 @@
-# Beverage Market Dynamics & Forecasting: B2B Channel Optimization
+# Beverage Market Dynamics & Forecasting: B2B Focus and Inventory Optimization
 
 ## 1) Purpose and Outcome
 ### **Purposes:**
@@ -127,11 +127,25 @@ df.info()
 - Coordinate inventory reduction across all categories during predictable low periods
 - Implement forecasting for all beverage types
 
-### Key findings
+### Key Findings
 
 1. **Optimize B2B Focus**: Restructure sales organization to capitalize on high-value B2B opportunities
 2. **Premium Product Leadership**: Position as premium beverage provider, especially in alcoholic category
 3. **Seasonal Planning**: Implement coordinated inventory and marketing strategies for predictable seasonal patterns
 
 ## 7) Forecasting
+
+### Total Sales Forecasting
+![Total_sales_forecasting](Total_sales_forecast_charts/EDA_chart.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/Monthly_sales_before_transf.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/Monthly_sales_after_transf.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/ACF_and_PACF.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/LN_forecast.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/XGB_forecast.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/SARIMAX_forecast.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/Diagnostics_plot.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/Model_comparison.png)
+### Quantities Of Each Products Forecasting
+![Quantities_of_each_products_forecasting](Product_forecast_charts/Product_forecast_charts.png)
+![Quantities_of_each_products_forecasting](Product_forecast_charts/Total_quantities_forecsat_chart.png)
 ## 8) Outcome
