@@ -82,74 +82,56 @@ df['Order_Date'] = pd.to_datetime(df['Order_Date'], format='%Y-%m-%d')
 df.info()
 ```
 
-## 6) EDA Process
+## 6) EDA
 
-### Customer Type Analysis (Images 1-2 from original set)
+### Customer Type Analysis
 ![Customer_type_analysis](Charts/chart_1.png)
 ![Customer_type_analysis](Charts/chart_2.png)
-- B2B customers generate 76.6% of total sales while B2C accounts for only 23.4%
-- B2B average purchase value is 5-6x higher than B2C customers
+![Customer_type_analysis](Charts/chart_15.png)
+![Customer_type_analysis](Charts/chart_16.png)
 
-**Recommendations:**
-- Develop tiered B2B loyalty program with volume-based incentives
-- Implement dedicated account management for high-value B2B customers
-- Create specialized bulk pricing structures for different B2B segments
-- Design separate marketing strategies targeting the unique needs of B2B vs B2C customers
+- B2B customers dominate both sales (76.6%) and quantities (77.7%), making them your primary revenue source.
+- B2B customers have significantly higher average sales ($280) and quantities (50 units) compared to B2C customers ($45 and 8 units).
+- Focus retention efforts on top B2B customers while developing strategies to move mid-tier B2C customers to higher value segments.
 
-### Product Performance Analysis (Images 3-5 from original set)
+### Product Performance Analysis
 ![Product_performance_analysis](Charts/chart_3.png)
 ![Product_performance_analysis](Charts/chart_4.png)
 ![Product_performance_analysis](Charts/chart_5.png)
-**Key Insights:**
-- Premium alcoholic beverages drive revenue despite lower quantities sold
-- Veuve Clicquot and Moet & Chandon are top revenue generators
-- Alcoholic beverages have the most product variety (19 unique products)
+![Product_performance_analysis](Charts/chart_6.png)
 
-**Recommendations:**
-- Expand premium alcohol selection, particularly champagnes and high-end spirits
-- Create bundling opportunities between premium alcoholic products and complementary items
-- Implement strategic pricing on highest-margin products
-- Develop marketing campaigns highlighting quality and exclusivity of premium offerings
+- Premium alcoholic beverages drive revenue: Veuve Clicquot, Moët & Chandon, and Johnnie Walker top sales despite lower quantities.
+- Sales-quantity mismatch: While alcoholic beverages dominate sales (~$900M), all categories (juices, water, soft drinks) sell in similar quantities (~50M units each), revealing dramatic price differences.
+- Customer preference: Both B2B and B2C customers appear to order equally across categories (25% each)
+- Juice opportunity: Hohes C Orange and other juices have the highest quantities sold, but don't appear in top revenue products
 
-### Regional Sales Analysis (Image 6 from original set)
+### Regional Sales Analysis
+![Regional_sales_analysis](Charts/chart_7.png)
 **Key Insights:**
 - Hamburg leads in sales followed by Hessen and Saarland
 - Similar quantity-to-sales ratios across regions indicates consistent pricing strategies
 
-**Recommendations:**
-- Leverage success factors from top-performing regions
-- Implement targeted growth strategies for underperforming regions like Bremen
-- Maintain consistent pricing across regions while optimizing distribution networks
+### Time Series Analysis 
+![Time_seris_analysis](Charts/chart_8.png)
+![Time_seris_analysis](Charts/chart_9.png)
+![Time_seris_analysis](Charts/chart_10.png)
+![Time_seris_analysis](Charts/chart_11.png)
+![Time_seris_analysis](Charts/chart_12.png)
+![Time_seris_analysis](Charts/chart_13.png)
+![Time_seris_analysis](Charts/chart_14.png)
 
-### Time Series Analysis (Images 7-8 from original set, Image 1 from new set)
-**Key Insights:**
 - Consistent March sales dips across all three years (15-20% decrease)
-- All beverage categories show identical seasonal patterns
-- Recovery tends to occur quickly in April-May
-
-**Recommendations:**
-- Launch "March Madness" promotional campaigns to counter seasonal dips
+- All beverage categories show identical seasonal patterns in sales and quantities
+- Recovery tends to occur quickly in April-May.
+- Launch a promotional campaigns in March to counter seasonal dips.
 - Coordinate inventory reduction across all categories during predictable low periods
-- Implement integrated forecasting for all beverage types
-- Consider company-wide rather than category-specific promotions during low periods
+- Implement forecasting for all beverage types
 
-### Customer Concentration Analysis (Images 2-3 from new set)
-**Key Insights:**
-- Approximately 40-50 customers generate disproportionately high sales (200K-300K+ each)
-- Sharp drop-off to long tail of smaller customers (50K or less)
-- Similar Pareto distribution in both sales value and quantities
-
-**Recommendations:**
-- Develop comprehensive key account management for top 50 customers
-- Create risk mitigation strategies for potential loss of high-value accounts
-- Implement special retention programs for highest-value customers
-- Design targeted growth strategies for mid-tier customers
-- Analyze characteristics of top customers to identify potential look-alikes in smaller customer base
-
-## Cross-Cutting Strategic Priorities
+### Key findings
 
 1. **Optimize B2B Focus**: Restructure sales organization to capitalize on high-value B2B opportunities
 2. **Premium Product Leadership**: Position as premium beverage provider, especially in alcoholic category
 3. **Seasonal Planning**: Implement coordinated inventory and marketing strategies for predictable seasonal patterns
-4. **Customer Relationship Management**: Develop tiered approach based on clearly defined customer value
-5. **Category-Specific Strategies**: Leverage unique patterns in each beverage category while maintaining coordinated overall approach
+
+## 7) Forecasting
+## 8) Outcome
