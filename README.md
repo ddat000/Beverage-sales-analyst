@@ -136,6 +136,7 @@ df.info()
 ## 7) Forecasting
 
 ### Total Sales Forecasting
+
 ![Total_sales_forecasting](Total_sales_forecast_charts/EDA_chart.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Monthly_sales_before_transf.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Monthly_sales_after_transf.png)
@@ -145,7 +146,29 @@ df.info()
 ![Total_sales_forecasting](Total_sales_forecast_charts/SARIMAX_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Diagnostics_plot.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Model_comparison.png)
+
 ### Quantities Of Each Products Forecasting
+
 ![Quantities_of_each_products_forecasting](Product_forecast_charts/Product_forecast_charts.png)
 ![Quantities_of_each_products_forecasting](Product_forecast_charts/Total_quantities_forecsat_chart.png)
+
 ## 8) Outcome
+
+1. **B2B Customer Dominance:**
+   - B2B customers contribute 76.6% of total sales and 77.7% of quantities
+   - They spend significantly more per transaction ($280 average) compared to B2C customers ($45)
+   - B2B customers purchase larger quantities (average 50 units vs. 8 units for B2C)
+   - The analysis recommends focusing retention efforts on top B2B customers as they represent the most valuable market segment
+
+2. **Premium Alcoholic Beverage Profitability:**
+   - Luxury brands (Veuve Clicquot, Moët & Chandon, Johnnie Walker) generate the highest revenue despite lower quantities sold
+   - Alcoholic beverages dominate sales (~$900M) while having similar unit sales to other categories (~50M units each) 
+   - The analysis supports expanding this product category and implementing targeted marketing strategies to capitalize on these high-margin products
+
+3. **Seasonal Sales Patterns and Forecasting:**
+   - Consistent March sales dips of 15-20% were identified across all three years analyzed
+   - All beverage categories display identical seasonal patterns in both sales and quantities
+   - Sales typically recover quickly in April-May following the March dip
+   - The analysis recommends launching promotional campaigns in March to counter seasonal declines
+   - Coordinated inventory reduction strategies should be implemented across all categories during predictable low periods
+   - SARIMAX models were built to forecast total sales and quantities of each product monthly
