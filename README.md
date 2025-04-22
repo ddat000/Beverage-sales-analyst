@@ -146,18 +146,51 @@ df.info()
 * **Differencing for Stationarity:** Applying differencing effectively removes the upward trend, stabilizing the series. This is essential for ARIMA-based models like SARIMAX.
 
 ![Total_sales_forecasting](Total_sales_forecast_charts/ACF_and_PACF.png)
+
+**Non-Seasonal Components (2, 0, 0):**
+
+* **Autoregressive (p=2):** The PACF displayed significant spikes at lags 1 and 2, indicating that the current sales value is strongly correlated with the sales values from the previous two periods. This suggests an AR(2) component is necessary to capture these short-term dependencies.
+* **Integrated (d=0):** No non-seasonal differencing was applied at this stage. The rationale is that the seasonal differencing (D=1) might be sufficient to achieve stationarity. This assumption needs to be validated through model diagnostics.
+* **Moving Average (q=0):** While the ACF showed a significant negative spike at lag 1, a non-seasonal MA term was initially omitted. The AR components might capture some of this short-term correlation, but this should be monitored in the residuals.
+
+**Seasonal Components (1, 1, 1, 12):**
+
+* **Seasonal Autoregressive (P=1):** A significant positive spike was observed at the seasonal lag of 12 in the PACF. This suggests that the sales in the current month are correlated with the sales in the same month of the previous year. A seasonal AR(1) component accounts for this relationship.
+* **Seasonal Integrated (D=1):** The presence of a clear monthly seasonal pattern in the initial EDA necessitates seasonal differencing (lag 12) to remove this non-stationarity and model the within-year fluctuations effectively.
+* **Seasonal Moving Average (Q=1):** A significant spike was also present at the seasonal lag of 12 in the ACF. This indicates a potential correlation with past seasonal forecast errors, which a seasonal MA(1) component can model.
+* **Seasonal Period (s=12):** The data exhibits a clear 12-month cycle, corresponding to the monthly seasonality.
+
+**In essence, this order aims to capture both the short-term autoregressive dynamics and the year-over-year seasonal patterns, while addressing seasonal non-stationarity through differencing. The absence of non-seasonal differencing and the non-seasonal MA term are choices that will be evaluated during model diagnostics.**
+
+**Fiting to the models**
+
 ![Total_sales_forecasting](Total_sales_forecast_charts/LN_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/RF_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/XGB_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/SARIMAX_forecast.png)
+
+**Models comparison and evaluating**
+
 ![Total_sales_forecasting](Total_sales_forecast_charts/Diagnostics_plot.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Model_comparison.png)
+
+* **Error Metrics (RMSE & MAE):** SARIMAX demonstrates lower RMSE and MAE compared to Linear Regression and XGBoost, indicating better predictive performance than these models. However, RandomForest shows the lowest error metrics among the compared models.
 
 ### Quantities Of Each Products Forecasting
 
 ![Time_seris_analysis](Charts/chart_14.png)
+
+**Base on the charts, the order (2,0,0)x(1,1,0,12) is chosen**
+
+### Products quantities forecasting
 ![Quantities_of_each_products_forecasting](Product_forecast_charts/Product_forecast_charts.png)
 ![Quantities_of_each_products_forecasting](Product_forecast_charts/Total_quantities_forecast_chart.png)
+
+**Forecast Result**
+
+- Overall SARIMA Model Evaluation (All Products Forecast):
++ Overall R-squared (R2): 0.9923
++ Overall Mean Absolute Percentage Error (MAPE): 2.8619%
 
 ## 8) Outcome
 
