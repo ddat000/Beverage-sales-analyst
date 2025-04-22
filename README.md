@@ -147,6 +147,7 @@ df.info()
 
 ![Total_sales_forecasting](Total_sales_forecast_charts/ACF_and_PACF.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/LN_forecast.png)
+![Total_sales_forecasting](Total_sales_forecast_charts/RF_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/XGB_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/SARIMAX_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Diagnostics_plot.png)
