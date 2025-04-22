@@ -155,6 +155,7 @@ df.info()
 
 ### Quantities Of Each Products Forecasting
 
+![Time_seris_analysis](Charts/chart_14.png)
 ![Quantities_of_each_products_forecasting](Product_forecast_charts/Product_forecast_charts.png)
 ![Quantities_of_each_products_forecasting](Product_forecast_charts/Total_quantities_forecast_chart.png)
 
