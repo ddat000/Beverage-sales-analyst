@@ -140,6 +140,11 @@ df.info()
 ![Total_sales_forecasting](Total_sales_forecast_charts/EDA_chart.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Monthly_sales_before_transf.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/Monthly_sales_after_transf.png)
+
+* **Stable Annual Sales, Strong Monthly Seasonality:** Total sales remain consistent year-over-year, but exhibit a clear and repeating pattern within each year, indicating significant monthly seasonality (likely a seasonal period of 12).
+* **Underlying Upward Trend:** Monthly sales data shows a general increasing trend over the observed period, suggesting a gradual growth in baseline sales.
+* **Differencing for Stationarity:** Applying differencing effectively removes the upward trend, stabilizing the series. This is essential for ARIMA-based models like SARIMAX.
+
 ![Total_sales_forecasting](Total_sales_forecast_charts/ACF_and_PACF.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/LN_forecast.png)
 ![Total_sales_forecasting](Total_sales_forecast_charts/XGB_forecast.png)
