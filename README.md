@@ -90,7 +90,7 @@ df.info()
 ![Customer_type_analysis](Charts/chart_15.png)
 ![Customer_type_analysis](Charts/chart_16.png)
 
-- B2B customers dominate both sales (76.6%) and quantities (77.7%), making them your primary revenue source.
+- B2B customers dominate both sales (76.6%) and quantities (77.7%), making them the primary revenue source.
 - B2B customers have significantly higher average sales ($280) and quantities (50 units) compared to B2C customers ($45 and 8 units).
 - Focus retention efforts on top B2B customers while developing strategies to move mid-tier B2C customers to higher value segments.
 
@@ -107,7 +107,7 @@ df.info()
 
 ### Regional Sales Analysis
 ![Regional_sales_analysis](Charts/chart_7.png)
-**Key Insights:**
+
 - Hamburg leads in sales followed by Hessen and Saarland
 - Similar quantity-to-sales ratios across regions indicates consistent pricing strategies
 
