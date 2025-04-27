@@ -1,53 +1,58 @@
-# **Beverage Industry Sales Analysis and Forecasting Proposal**
+# **Beverage Market Dynamics & Forecasting Proposal**
 
-## **Project Overview**
+## **B2B Focus and Inventory Optimization**
 
-Comprehensive data analytics project leveraging your beverage industry sales dataset to extract actionable insights, develop predictive models, and create interactive visualizations. This project will focus on understanding sales distribution patterns, forecasting future sales, and building a dashboard to monitor key performance indicators.
+Link data: [Beverage Sales](https://www.kaggle.com/datasets/sebastianwillmann/beverage-sales)
 
-## **Phase 1: Exploratory Data Analysis (EDA)**
+### **Executive Summary**
 
-The EDA will analyze how total sales distribute across various dimensions, including:
+A comprehensive analysis of beverage sales data to identify key market dynamics, optimize customer targeting strategies, and improve sales forecasting. This analysis will specifically focus on understanding B2B versus B2C customer behaviors, evaluating product performance across categories, and developing accurate sales forecasting models to optimize inventory management.
 
-- **Product Category Analysis**: Comparing sales performance between soft drinks and alcoholic beverages
-- **Customer Segmentation**: Analyzing differences in purchasing patterns between B2B and B2C customers
-- **Regional Performance**: Identifying high and low-performing regions
-- **Seasonal Trends**: Detecting monthly, quarterly, and annual sales patterns
-- **Discount Impact**: Evaluating how discounts affect total sales for B2B customers
-- **Product Performance**: Ranking products by sales volume and revenue
-- **Order Analysis**: Examining order sizes, frequencies, and customer purchasing habits
+The analysis aims to provide actionable insights that will help your company increase revenue, improve profit margins, and implement more effective seasonal planning strategies.
 
-## **Phase 2: Predictive Modeling**
+### **Project Objectives**
 
-I recommend developing multiple models to predict total sales:
+1. **Customer Segmentation Analysis**
+   * Differentiate purchasing behaviors between B2B and B2C customers
+   * Identify high-value customer segments and their contribution to overall revenue
+   * Develop targeted retention strategies for key customer groups
+2. **Product Performance Evaluation**
+   * Analyze sales and quantity metrics across product categories
+   * Identify high-margin products and categories with growth potential
+   * Provide recommendations for product mix optimization
+3. **Sales Forecasting and Seasonal Planning**
+   * Identify temporal sales patterns and seasonal trends
+   * Build predictive models for accurate sales forecasting
+   * Develop strategies for inventory management during seasonal fluctuations
 
-1. **Multiple Linear Regression**: To identify key variables influencing sales
-2. **Time Series Analysis**:
-    - **ARIMA/SARIMA**: To capture seasonal patterns and trends
-    - **Prophet**: For detecting multiple seasonality patterns and handling holidays
-3. **Machine Learning Models**:
-    - **Random Forest**: For capturing non-linear relationships
-    - **XGBoost**: For high-performance prediction with feature importance
+### **Methodology**
 
-Model performance will be evaluated using metrics such as RMSE, MAE, and R-squared, with cross-validation to ensure reliability.
+#### **Analysis Techniques**
 
-## **Phase 3: PowerBI Dashboard Development**
+* **Customer Analysis**: Interpret the differences between B2B and B2C customer
+* **Product Performance**: Category-level analysis of sales, quantities, and profit margins
+* **Regional Analysis**: Geographic distribution of sales and customer preferences
+* **Time Series Analysis**: Identification of sales patterns, seasonality, and trends
+* **Predictive Modeling**: SARIMAX models for sales forecasting at product and category levels
 
-The interactive dashboard will include:
+#### **Tools and Technologies**
 
-- **Sales Overview**: Total revenue, units sold, average order value
-- **Time Series Visualization**: Sales trends with seasonal decomposition
-- **Geographic Performance**: Regional sales map with drill-down capabilities
-- **Customer Insights**: B2B vs B2C comparison metrics
-- **Product Performance**: Top/bottom performing products
-- **Forecasting View**: Projected sales with confidence intervals
-- **What-If Analysis**: Interactive tools to simulate scenarios (pricing changes, discount strategies)
+* **Python**: For data processing, exploratory data analysis, and statistical modeling
+* **Pandas & NumPy**: For data manipulation and numerical analysis
+* **Matplotlib & Seaborn**: For data visualization
+* **Statsmodels**: For time series forecasting using SARIMAX models
 
-## **Expected Outcomes**
+### **Deliverables**
 
-- Comprehensive understanding of sales distribution across key dimensions
-- Accurate sales forecasting models with quantifiable precision
-- Interactive dashboard for real-time decision support
-- Actionable insights for inventory management, marketing strategies, and business planning
-- Identification of growth opportunities by region, product, and customer segment
-
-This project will provide valuable intelligence to optimize pricing strategies, improve customer targeting, manage seasonal fluctuations, and ultimately drive revenue growth.
+1. **Comprehensive Analysis Report**
+   * Detailed findings on customer segmentation, product performance, and seasonal patterns
+   * Visualizations of key metrics and relationships
+   * Executive summary of critical insights
+2. **Forecasting Models**
+   * Monthly sales forecasts for overall business and individual product categories
+   * Accuracy metrics and validation of forecasting models
+   * Interactive dashboard for exploring forecast scenarios
+3. **Strategic Recommendations**
+   * Actionable strategies for B2B customer retention and growth
+   * Product mix optimization suggestions based on profitability analysis
+   * Seasonal planning guidelines for inventory management and promotions
