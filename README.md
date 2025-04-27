@@ -188,7 +188,7 @@ df.info()
 
 **Forecast Result**
 
-- Overall SARIMA Model Evaluation (All Products Forecast):
+**Overall SARIMA Model Evaluation (All Products Forecast)**
 + Overall R-squared (R2): 0.9923
 + Overall Mean Absolute Percentage Error (MAPE): 2.8619%
 
