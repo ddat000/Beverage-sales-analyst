@@ -1,5 +1,5 @@
 # Beverage Market Dynamics & Forecasting: B2B Focus and Inventory Optimization
-
+![Picture](Picture1.png)
 ## 1) Purpose and Outcome
 ### **Purposes:**
 - Understanding the distinct characteristics and purchasing behaviors of different customer types **B2B and B2C**.
